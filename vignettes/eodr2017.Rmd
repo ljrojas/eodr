@@ -1,0 +1,35 @@
+---
+title: "eodr2017"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{eodr2017}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(eodr)
+```
+
+El objetivo de este dcto es ...
+
+# Ejemplo 1
+
+## Conexion
+
+Me conecto con:
+```{r}
+con <- con_eod2017()
+```
+
+
+# Ejemplo 2
+
+# Ejemplo 3
