@@ -17,9 +17,9 @@ assign(n[1], d)
 # use_data(actividad)
 
 try(dir.create("inst"))
-try(dir.create("inst/data"))
+try(dir.create("inst/extdata"))
 
-con <- dbConnect(SQLite(), "inst/data/eod2017.sqlite")
+con <- dbConnect(SQLite(), "inst/extdata/eod2017.sqlite")
 
 for (i in seq_along(finp)) {
   d <- read_delim(finp[i], delim = '\t')
