@@ -1,5 +1,5 @@
 Package: eodr
-Title: What the Package Does (One Line, Title Case)
+Title: Encuesta origen-destino en Rcon_eod2017
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "First",
@@ -18,3 +18,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
+Imports: 
+    RSQLite

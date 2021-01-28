@@ -18,7 +18,6 @@ assign(n[1], d)
 
 try(dir.create("inst"))
 try(dir.create("inst/extdata"))
-
 con <- dbConnect(SQLite(), "inst/extdata/eod2017.sqlite")
 
 for (i in seq_along(finp)) {
